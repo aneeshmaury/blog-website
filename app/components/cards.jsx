@@ -33,8 +33,8 @@ function Making(props) {
               alt=""
             />
             <div className="p-3 ">
-                  <div className="bikename text-white font-bold text-xl">{person.name}</div>
-            <div className="carddis text-white tracking-tight">{person.dis}</div>
+                  <div className="bikename text-white font-bold text-base">{person.name}</div>
+            <div className="carddis text-white tracking-tight text-sm">{person.dis}</div>
             <button className="btn bg-blue-900 text-white w-40 mt-3 ">Read More</button>
             </div>
           
