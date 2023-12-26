@@ -27,15 +27,15 @@ function Making(props) {
         <>
         <div className="grid grid-cols-1 grid-rows-24 md:grid-cols-3 grid-rows-6 gap-4 justify-items-center mt-6  ">
         {names.map((person, index) => (
-          <div key={index} className="cardcontainer bg-white max-w-80 max-h-120">
+          <div key={index} className="cardcontainer bg-black max-w-80 max-h-120 rounded-b-lg">
             <img
               src={person.image}
               alt=""
             />
-            <div className="p-3">
-                  <div className="bikename text-black font-bold text-xl ">{person.name}</div>
-            <div className="carddis text-black tracking-tight">{person.dis}</div>
-            <button className="btn bg-blue-900 w-40 mt-3 ">Read More</button>
+            <div className="p-3 ">
+                  <div className="bikename text-white font-bold text-xl">{person.name}</div>
+            <div className="carddis text-white tracking-tight">{person.dis}</div>
+            <button className="btn bg-blue-900 text-white w-40 mt-3 ">Read More</button>
             </div>
           
           </div>
