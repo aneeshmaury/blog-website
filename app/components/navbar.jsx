@@ -3,7 +3,7 @@ function Navbar(){
         <nav className="bg-slate-950 w-full">
       <div className="nav-container flex items-center justify-evenly py-2.5">
     <div className="logo">
-        <h1 className="text-3xl text-white font-bold">Blog</h1>
+        <h1 className="text-3xl text-white font-bold">Bike</h1>
     </div>
     <div className="link text-white ">
         <ul className="flex gap-9">
